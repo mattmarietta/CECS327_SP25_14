@@ -5,11 +5,11 @@ This project simulates IoT device integration, data visualization, and communica
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
-### 🔗 Database Configuration
+### Database Configuration
 
-1. **Visit** [Dataviz](https://dataviz.com)
+1. **Visit** [Dataniz](https://dataniz.com)
 2. Click on the **gear icon**.
 3. Create a:
    - **Source**
@@ -23,7 +23,7 @@ This project simulates IoT device integration, data visualization, and communica
 
 ---
 
-### 💡 Virtual Hardware Setup
+### Virtual Hardware Setup
 
 1. Navigate to the **Virtual Hardware** section.
 2. Create the following **Devices**:
@@ -45,9 +45,9 @@ This project simulates IoT device integration, data visualization, and communica
 
 ---
 
-## 🧪 Running Queries via GCP VM
+## Running Queries via GCP VM
 
-### 🖥️ Server & Client Setup
+### Server & Client Setup
 
 1. **Start your GCP VM instances** (one for the client, one for the server).
 2. **Download** `client.py` and `server.py` files to your local machine.
@@ -58,7 +58,7 @@ This project simulates IoT device integration, data visualization, and communica
    - Open the **command line terminal**
    - `cd` into the directory containing the Python script
 
-### 🚀 Start the Server
+### Start the Server
 
 1. On the **server VM**, run:
    ```bash
@@ -68,7 +68,7 @@ This project simulates IoT device integration, data visualization, and communica
    - Enter your **host IP address** (use `ipconfig` or `ifconfig` to find this)
    - Enter a **port number** (e.g., `8080`)
 
-### 🛰️ Start the Client
+### Start the Client
 
 1. On the **client VM**, run:
    ```bash
@@ -79,11 +79,3 @@ This project simulates IoT device integration, data visualization, and communica
    - Use the **same port number** you used on the server
 
 ---
-
-## ✅ Final Checklist
-
-- [ ] Dataviz and Neon connection established
-- [ ] All virtual hardware devices and sensors configured
-- [ ] Metadata created
-- [ ] Server and client scripts running and connected successfully
-
